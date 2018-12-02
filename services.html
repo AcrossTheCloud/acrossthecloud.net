@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Across the Cloud Pty Ltd: projects and services">
+    <meta name="description" content="Across the Cloud Pty Ltd: services">
     <meta name="author" content="Matthew Berryman">
 
     <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
@@ -26,7 +26,7 @@
     <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Projects and Services</title>
+    <title>Services</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -60,7 +60,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Projects and Services</a>
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clients.html">Clients</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -72,27 +75,42 @@
     <!-- Begin page content -->
     <div class="container">
       <div class="page-header">
-        <h1>Projects and Services</h1>
+        <h1>Services</h1>
       </div>
-      <p class="lead">Details of our projects and services:</p>
-      <p>
-        <a href="https://petabencana.id/">PetaBencana.id</a> is a real time emergency flood map for the cities of Jakarta, Bandung, and Surabaya in Indonesia, which experience severe flooding on an annual basis. This project is in conjunction with <a href="https://mit.edu/">MIT</a> and funded by <a href="https://www.usaid.gov/">USAID</a>. Our role has been to develop a scalable and reliable architecture, implementing a DevOps pipeline, deploying on the system on <a href="https://aws.amazon.com">Amazon Web Services</a>, and developing <a href="https://github.com/matthewberryman/iot-report">Internet of Things water level sensors</a>. Read more: <a href="https://www.mapbox.com/blog/jakarta-flooding-map/">Scaling open maps for Jakarta flooding</a>.<br />
-      </p>
-      <p>
-        Working with <a href="https://enviroservices.com.au/">Enviro Building Services Pty Ltd</a> on smarter building monitoring and control systems.
-      </p>
-      <p>
-        Consulting on cloud storage and email: Across the Cloud has a growing number of clients to whom I have provided advice and assistance with for migrating file storage, emails, web hosting, and data processing to the cloud.
-      </p>
-      <p>
-        High performance computing: In my role as IT Architect at the <a href="https://smart.uow.edu.au">SMART Infrastructure Facility</a> our managing director provides advice to the SMART Infrastructure Facility and the broader <a href="https://uow.edu.au/">University of Wollongong</a> community on High Performance Computing (CPU and GPU spaces), including chairing the University of Wollongong's High Performance Steering Committee.
-      </p>
-      <p>
-        Mentoring a young student who's been developing a <a href="http://www.uoweis.co/young-prodigy-showcases-shark-probability-app/">Shark app</a> for estimating the likelihood of sharks being at beaches based on past shark sightings and environmental data.
-      </p>
-      <p>
-        Mechanical computing as a service: as a demonstrator of the use of cloud, Across the Cloud have successfuly implemented mechanical computing as a web service. Read more and find the source code <a href="https://github.com/matthewberryman/brunsviga/">here</a>
-      </p>
+      <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-summary-list" data-toggle="list" href="#list-summary" role="tab" aria-controls="summary">Summary</a>
+              <a class="list-group-item list-group-item-action" id="list-cloud-list" data-toggle="list" href="#list-cloud" role="tab" aria-controls="cloud">Cloud</a>
+              <a class="list-group-item list-group-item-action" id="list-machine-learning-list" data-toggle="list" href="#list-machine-learning" role="tab" aria-controls="messages">Machine learning</a>
+              <a class="list-group-item list-group-item-action" id="list-hpc-list" data-toggle="list" href="#list-hpc" role="tab" aria-controls="hpc">HPC</a>
+              <a class="list-group-item list-group-item-action" id="list-iot-list" data-toggle="list" href="#list-iot" role="tab" aria-controls="iot">IoT</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-summary" role="tabpanel" aria-labelledby="list-summary-list">
+                  Across the Cloud assist clients in a number of areas from cloud architecture and hosting through to IoT.
+                   Please click on the menu links on the left to find out more.
+              </div>
+              <div class="tab-pane fade" id="list-cloud" role="tabpanel" aria-labelledby="list-cloud-list">
+                  Across the Cloud can assist with the range of your cloud requirements, from web (especially geospatial) platforms and email
+                   hosting through to modern, scalable architectures for web, data processing, IoT, etc.
+              </div>
+              <div class="tab-pane fade" id="list-machine-learning" role="tabpanel" aria-labelledby="list-machine-learning-list">
+                  Across the Cloud can assist with your machine learning requirements, be that image recognition through to predictive models.
+              </div>
+              <div class="tab-pane fade" id="list-hpc" role="tabpanel" aria-labelledby="list-hpc-list">
+                  Across the Cloud has experience in working with clients to take advantage of high
+                   performance computing from shared memory to distributed memory and GPU computing.
+              </div>
+              <div class="tab-pane fade" id="list-iot" role="tabpanel" aria-labelledby="list-iot-list">
+                  Across the Cloud has a range of expertise on IoT from design of hardware through to
+                   device programming and then cloud and on-premesis processing and display of that IoT data. 
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
     <!-- Bootstrap core JavaScript
