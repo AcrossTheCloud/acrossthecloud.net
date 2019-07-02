@@ -74,6 +74,17 @@ div {
   transition: all 1s;
 }
 
+#about .icons {
+  font-size: 40px;
+}
+#about .position {
+  font-size: 1rem;
+}
+#about .member.mborder {
+  border: 1px solid #00b3d8;
+  border-radius: .25rem;
+}
+
 .list-group-item.active, .list-group-item:hover{
   color: #fff;
   background: #00b3d8;
