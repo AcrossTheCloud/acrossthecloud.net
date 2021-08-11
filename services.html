@@ -45,17 +45,17 @@
 
   <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-toggleable-md navbar navbar-expand-lg navbar-light navbar-light bg-faded" style="z-index:999">
+    <nav class="navbar navbar-expand-md navbar-light bg-faded" style="z-index:999">
 
       <div class="navbar-brand">
         <img src="images/logo.png" class="img-fluid">
       </div>
 
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
@@ -81,11 +81,11 @@
       <div class="row">
           <div class="col-12 col-sm-4">
             <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active" id="list-summary-list" data-toggle="list" href="#list-summary" role="tab" aria-controls="summary">Summary</a>
-              <a class="list-group-item list-group-item-action" id="list-cloud-list" data-toggle="list" href="#list-cloud" role="tab" aria-controls="cloud">Cloud</a>
-              <a class="list-group-item list-group-item-action" id="list-machine-learning-list" data-toggle="list" href="#list-machine-learning" role="tab" aria-controls="messages">Machine learning</a>
-              <a class="list-group-item list-group-item-action" id="list-hpc-list" data-toggle="list" href="#list-hpc" role="tab" aria-controls="hpc">HPC</a>
-              <a class="list-group-item list-group-item-action" id="list-iot-list" data-toggle="list" href="#list-iot" role="tab" aria-controls="iot">IoT</a>
+              <a class="list-group-item list-group-item-action active" id="list-summary-list" data-bs-toggle="list" href="#list-summary" role="tab" aria-controls="summary" aria-selected="true">Summary</a>
+              <a class="list-group-item list-group-item-action" id="list-cloud-list" data-bs-toggle="list" href="#list-cloud" role="tab" aria-controls="cloud" aria-selected="false">Cloud</a>
+              <a class="list-group-item list-group-item-action" id="list-machine-learning-list" data-bs-toggle="list" href="#list-machine-learning" role="tab" aria-controls="messages" aria-selected="false">Machine learning</a>
+              <a class="list-group-item list-group-item-action" id="list-hpc-list" data-bs-toggle="list" href="#list-hpc" role="tab" aria-controls="hpc" aria-selected="false">HPC</a>
+              <a class="list-group-item list-group-item-action" id="list-iot-list" data-bs-toggle="list" href="#list-iot" role="tab" aria-controls="iot" aria-selected="false">IoT</a>
             </div>
           </div>
           <div class="col-12 col-sm-8">
