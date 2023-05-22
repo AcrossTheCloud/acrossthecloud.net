@@ -8,9 +8,14 @@ a, a:visited, a:focus {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   color: #00b3c5;
   letter-spacing: 0.2rem;
+}
+
+
+h2, h3, h4, h5, h6 {
+  color: #a3d1d5;
 }
 
 div {
