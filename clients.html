@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWV2QYGLJS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LWV2QYGLJS');
+    </script>
     <meta name="description" content="Across the Cloud Pty Ltd: clients">
     <meta name="author" content="Matthew Berryman">
 
@@ -16,7 +26,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
@@ -27,11 +37,14 @@
     <title>Clients</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==">
+    <link href="/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==">
 
     <!-- Custom styles for this template -->
-    <link href="css/site.css" rel="stylesheet" integrity="sha512-Ba9GVMBH4ooncY5DzoFk5nbm1EU56Ez+LL2oRqbZnl9zWzzlYpI0ka1uCW/70VlWXMSef6XgEzByK5dKpQXeaw==">
-    <link href="css/sticky-footer-navbar.css" rel="stylesheet" integrity="sha512-j7F5OgSZDL4yeLWXRQ+YtYZoMtaUMQ9yuckff1WefhqgDp/RlxnC8xIhHNeFL+vpdwIWpY0N5LJZoXYHdC980w==">
+    <link href="css/site.css" rel="stylesheet"
+        integrity="sha512-Ba9GVMBH4ooncY5DzoFk5nbm1EU56Ez+LL2oRqbZnl9zWzzlYpI0ka1uCW/70VlWXMSef6XgEzByK5dKpQXeaw==">
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet"
+        integrity="sha512-j7F5OgSZDL4yeLWXRQ+YtYZoMtaUMQ9yuckff1WefhqgDp/RlxnC8xIhHNeFL+vpdwIWpY0N5LJZoXYHdC980w==">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -40,111 +53,153 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-faded" style="z-index:999">
 
-      <div class="navbar-brand">
-        <img src="images/logo.png" class="img-fluid">
-      </div>
+        <div class="navbar-brand">
+            <img src="images/logo.png" class="img-fluid">
+        </div>
 
-      <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="navbar-collapse collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="apps.html">Apps</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Clients</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="privacy.html">Privacy</a>
-          </li>
-        </ul>
-      </div>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="apps.html">Apps</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="privacy.html">Privacy</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Begin page content -->
     <div class="container">
-      <div class="page-header">
-        <h1>Clients</h1>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-4">
-            <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active" id="list-summary-list" data-bs-toggle="list" href="#list-summary" role="tab" aria-controls="summary" aria-selected="true">Summary</a>
-              <a class="list-group-item list-group-item-action" id="list-client1-list" data-bs-toggle="list" href="#list-client1" role="tab" aria-controls="client1" aria-selected="false">University of Wollongong</a>
-              <a class="list-group-item list-group-item-action" id="list-client2-list" data-bs-toggle="list" href="#list-client2" role="tab" aria-controls="client2" aria-selected="false">TBA21 Academy</a>
-              <a class="list-group-item list-group-item-action" id="list-client-bev-list" data-bs-toggle="list" href="#list-client-bev" role="tab" aria-controls="client-bev" aria-selected="false">Bev's Remnant House</a>
-              <a class="list-group-item list-group-item-action" id="list-client-fibrefeastsa-list" data-bs-toggle="list" href="#list-client-fibrefeastsa" role="tab" aria-controls="client-fibrefeastsa" aria-selected="false">Fibre Feast SA</a>
-              <a class="list-group-item list-group-item-action" id="list-client3-list" data-bs-toggle="list" href="#list-client3" role="tab" aria-controls="client3" aria-selected="false">Keystone Conveyancers SA</a>
-              <a class="list-group-item list-group-item-action" id="list-client4-list" data-bs-toggle="list" href="#list-client4" role="tab" aria-controls="client4" aria-selected="false">PetaBencana</a>
-              <a class="list-group-item list-group-item-action" id="list-client5-list" data-bs-toggle="list" href="#list-client5" role="tab" aria-controls="client5" aria-selected="false">Hong Kong MTR Corporation</a>
-              <a class="list-group-item list-group-item-action" id="list-client6-list" data-bs-toggle="list" href="#list-client6" role="tab" aria-controls="client6" aria-selected="false">SCE Group</a>
-              <a class="list-group-item list-group-item-action" id="list-client7-list" data-bs-toggle="list" href="#list-client7" role="tab" aria-controls="client7" aria-selected="false">Imagine Intelligent Materials</a>
+        <div class="page-header">
+            <h1>Clients</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-summary-list"
+                        data-bs-toggle="list" href="#list-summary" role="tab" aria-controls="summary"
+                        aria-selected="true">Summary</a>
+                    <a class="list-group-item list-group-item-action" id="list-client1-list" data-bs-toggle="list"
+                        href="#list-client1" role="tab" aria-controls="client1" aria-selected="false">University of
+                        Wollongong</a>
+                    <a class="list-group-item list-group-item-action" id="list-client2-list" data-bs-toggle="list"
+                        href="#list-client2" role="tab" aria-controls="client2" aria-selected="false">TBA21 Academy</a>
+                    <a class="list-group-item list-group-item-action" id="list-client-bev-list" data-bs-toggle="list"
+                        href="#list-client-bev" role="tab" aria-controls="client-bev" aria-selected="false">Bev's
+                        Remnant House</a>
+                    <a class="list-group-item list-group-item-action" id="list-client-fibrefeastsa-list"
+                        data-bs-toggle="list" href="#list-client-fibrefeastsa" role="tab"
+                        aria-controls="client-fibrefeastsa" aria-selected="false">Fibre Feast SA</a>
+                    <a class="list-group-item list-group-item-action" id="list-client3-list" data-bs-toggle="list"
+                        href="#list-client3" role="tab" aria-controls="client3" aria-selected="false">Keystone
+                        Conveyancers SA</a>
+                    <a class="list-group-item list-group-item-action" id="list-client4-list" data-bs-toggle="list"
+                        href="#list-client4" role="tab" aria-controls="client4" aria-selected="false">PetaBencana</a>
+                    <a class="list-group-item list-group-item-action" id="list-client5-list" data-bs-toggle="list"
+                        href="#list-client5" role="tab" aria-controls="client5" aria-selected="false">Hong Kong MTR
+                        Corporation</a>
+                    <a class="list-group-item list-group-item-action" id="list-client6-list" data-bs-toggle="list"
+                        href="#list-client6" role="tab" aria-controls="client6" aria-selected="false">SCE Group</a>
+                    <a class="list-group-item list-group-item-action" id="list-client7-list" data-bs-toggle="list"
+                        href="#list-client7" role="tab" aria-controls="client7" aria-selected="false">Imagine
+                        Intelligent Materials</a>
+                </div>
             </div>
-          </div>
-          <div class="col-12 col-sm-8">
-            <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="list-summary" role="tabpanel" aria-labelledby="list-summary-list">Across the Cloud helps a number of clients with a diverse range of cloud computing and IoT needs.</div>
-              <div class="tab-pane fade" id="list-client1" role="tabpanel" aria-labelledby="list-client1-list">
-                Across the Cloud provided advice on and maintained a high performance computing environment for the
-                Centre for Bioinformatics and Biometrics, and works with the SMART Infrastructure Facility on
-                development of smart web platforms, including the SMART data and metadata platform as part of the work for <a href="https://aurin.org.au" target="_blank" rel="noreferrer">AURIN</a>. In conjunction with the University of Wollongong Digital Living
-                Lab, Across the Cloud also ran community IoT tech sessions.
-              </div>
-              <div class="tab-pane fade" id="list-client2" role="tabpanel" aria-labelledby="list-client2-list">
-                  Across the Cloud maintained a G Suite and AWS hybrid cloud solution for the TBA21 Academy, as well as
-                  developed the <a href="https://ocean-archive.org/" target="_blank" rel="noreferrer">Ocean Archive</a> platform (with both "serverless" web and voice interfaces) for searching through the
-                  TBA21 Academy’s extensive archive of digital artefact's from the world’s oceans.
-              </div>
-              <div class="tab-pane fade" id="list-client-bev" role="tabpanel" aria-labelledby="list-client-bev-list">
-                Across the Cloud assist with web site updates and bulk uploads of new stock details for <a href="https://bevsremnanthouse.com.au/" target="_blank" rel="noreferrer">Bev's Remnant House</a>
-              </div>
-              <div class="tab-pane fade" id="list-client-fibrefeastsa" role="tabpanel" aria-labelledby="list-client-fibrefeastsa-list">
-                Across the Cloud migrated the <a href="https://fibrefeastsa.com/" target="_blank" rel="noreferrer">Fibre Feast SA web site</a> from Wix to a Wordpress instance, which required rebuilding the pages, along with DNS domain transfer and configuration, and set up of email hosting.
-              </div>
-              <div class="tab-pane fade" id="list-client3" role="tabpanel" aria-labelledby="list-client3-list">
-                Across the Cloud developed the web site for <a href="https://keystonecsa.com.au" target="_blank" rel="noreferrer">Keystone Conveyancers SA</a>.
-              </div>
-              <div class="tab-pane fade" id="list-client4" role="tabpanel" aria-labelledby="list-client4-list">
-                Across the Cloud has helped the Yayasan Peta Bencana build and run a crowd sourced flood mapping service,
-                <a href="https://PetaBencana.id" target="_blank" rel="noreferrer">PetaBencana.id</a>,
-                using the CogniCity platform, as also used in
-                <a href="https://RiskMap.in" target="_blank" rel="noreferrer">RiskMap.in</a> and <a href="https://RiskMap.id" target="_blank" rel="noreferrer">RiskMap.id</a>,
-                with social media bots on Telegram, FaceBook and Twitter for members of the public to report floods.
-              </div>
-              <div class="tab-pane fade" id="list-client5" role="tabpanel" aria-labelledby="list-client5-list">
-                  Across the Cloud provided and maintained Azure-based hosting of the Enterprise Metamoderation for Innovation web platform.
-              </div>
-              <div class="tab-pane fade" id="list-client6" role="tabpanel" aria-labelledby="list-client6-list">
-                  Across the Cloud provides advice on cloud adoption, web application development and hosting, and machine learning development.
-              </div>
-              <div class="tab-pane fade" id="list-client7" role="tabpanel" aria-labelledby="list-client7-list">
-                  Across the Cloud provided advice and conducted technical work to help Imagine build smart sensing IoT applications around graphene.
-              </div>
+            <div class="col-12 col-sm-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-summary" role="tabpanel"
+                        aria-labelledby="list-summary-list">Across the Cloud helps a number of clients with a diverse
+                        range of cloud computing and IoT needs.</div>
+                    <div class="tab-pane fade" id="list-client1" role="tabpanel" aria-labelledby="list-client1-list">
+                        Across the Cloud provided advice on and maintained a high performance computing environment for
+                        the
+                        Centre for Bioinformatics and Biometrics, and works with the SMART Infrastructure Facility on
+                        development of smart web platforms, including the SMART data and metadata platform as part of
+                        the work for <a href="https://aurin.org.au" target="_blank" rel="noreferrer">AURIN</a>. In
+                        conjunction with the University of Wollongong Digital Living
+                        Lab, Across the Cloud also ran community IoT tech sessions.
+                    </div>
+                    <div class="tab-pane fade" id="list-client2" role="tabpanel" aria-labelledby="list-client2-list">
+                        Across the Cloud maintained a G Suite and AWS hybrid cloud solution for the TBA21 Academy, as
+                        well as
+                        developed the <a href="https://ocean-archive.org/" target="_blank" rel="noreferrer">Ocean
+                            Archive</a> platform (with both "serverless" web and voice interfaces) for searching through
+                        the
+                        TBA21 Academy’s extensive archive of digital artefact's from the world’s oceans.
+                    </div>
+                    <div class="tab-pane fade" id="list-client-bev" role="tabpanel"
+                        aria-labelledby="list-client-bev-list">
+                        Across the Cloud assist with web site updates and bulk uploads of new stock details for <a
+                            href="https://bevsremnanthouse.com.au/" target="_blank" rel="noreferrer">Bev's Remnant
+                            House</a>
+                    </div>
+                    <div class="tab-pane fade" id="list-client-fibrefeastsa" role="tabpanel"
+                        aria-labelledby="list-client-fibrefeastsa-list">
+                        Across the Cloud migrated the <a href="https://fibrefeastsa.com/" target="_blank"
+                            rel="noreferrer">Fibre Feast SA web site</a> from Wix to a Wordpress instance, which
+                        required rebuilding the pages, along with DNS domain transfer and configuration, and set up of
+                        email hosting.
+                    </div>
+                    <div class="tab-pane fade" id="list-client3" role="tabpanel" aria-labelledby="list-client3-list">
+                        Across the Cloud developed the web site for <a href="https://keystonecsa.com.au" target="_blank"
+                            rel="noreferrer">Keystone Conveyancers SA</a>.
+                    </div>
+                    <div class="tab-pane fade" id="list-client4" role="tabpanel" aria-labelledby="list-client4-list">
+                        Across the Cloud has helped the Yayasan Peta Bencana build and run a crowd sourced flood mapping
+                        service,
+                        <a href="https://PetaBencana.id" target="_blank" rel="noreferrer">PetaBencana.id</a>,
+                        using the CogniCity platform, as also used in
+                        <a href="https://RiskMap.in" target="_blank" rel="noreferrer">RiskMap.in</a> and <a
+                            href="https://RiskMap.id" target="_blank" rel="noreferrer">RiskMap.id</a>,
+                        with social media bots on Telegram, FaceBook and Twitter for members of the public to report
+                        floods.
+                    </div>
+                    <div class="tab-pane fade" id="list-client5" role="tabpanel" aria-labelledby="list-client5-list">
+                        Across the Cloud provided and maintained Azure-based hosting of the Enterprise Metamoderation
+                        for Innovation web platform.
+                    </div>
+                    <div class="tab-pane fade" id="list-client6" role="tabpanel" aria-labelledby="list-client6-list">
+                        Across the Cloud provides advice on cloud adoption, web application development and hosting, and
+                        machine learning development.
+                    </div>
+                    <div class="tab-pane fade" id="list-client7" role="tabpanel" aria-labelledby="list-client7-list">
+                        Across the Cloud provided advice and conducted technical work to help Imagine build smart
+                        sensing IoT applications around graphene.
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
     </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==""></script>
+    <script src="/js/bootstrap.min.js"
+        integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==""></script>
   </body>
 </html>
