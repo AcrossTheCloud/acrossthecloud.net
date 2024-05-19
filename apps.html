@@ -111,7 +111,7 @@
                     <a class="list-group-item list-group-item-action" id="list-Soupcan-list" data-bs-toggle="list"
                         href="#list-Soupcan" role="tab" aria-controls="Soupcan" aria-selected="false">Soupcan</a>
                     <a class="list-group-item list-group-item-action" id="list-Simple-Admiral-Blocker-list" data-bs-toggle="list"
-                        href="#list-Soupcan" role="tab" aria-controls="Soupcan" aria-selected="false">Simple Admiral Blocker</a>
+                        href="#list-Simple-Admiral-Blocker" role="tab" aria-controls="Simple-Admiral-Blocker" aria-selected="false">Simple Admiral Blocker</a>
                 </div>
             </div>
             <div class="col-12 col-sm-8">
@@ -186,6 +186,20 @@
                     $('#list-talk-for-me-list').attr('aria-selected', 'true').addClass('active');
                     $('#list-summary').removeClass('show').removeClass('active');
                     $('#list-talk-for-me').addClass('show').addClass('active');
+                }
+
+                if (hash == "Soupcan") {
+                    $('#list-summary-list').attr('aria-selected', 'false').removeClass('active');
+                    $('#list-Soupcan-list').attr('aria-selected', 'true').addClass('active');
+                    $('#list-summary').removeClass('show').removeClass('active');
+                    $('#list-Soupcan').addClass('show').addClass('active');
+                }
+
+                if (hash == "Simple-Admiral-Blocker") {
+                    $('#list-summary-list').attr('aria-selected', 'false').removeClass('active');
+                    $('#list-Simple-Admiral-Blocker-list').attr('aria-selected', 'true').addClass('active');
+                    $('#list-summary').removeClass('show').removeClass('active');
+                    $('#list-Simple-Admiral-Blocker').addClass('show').addClass('active');
                 }
             }
         });
